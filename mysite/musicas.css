@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1db954;
+    color: white;
+    padding: 10px 0;
+}
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align:center;
+    padding: 40px 0;
+}
+
+.hero img {
+    max-height: 100px;
+}
+
+.playlist-carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 20px;
+}
+
+.playlist-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.playlist-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.playlist-card p {
+    padding: 10px;
+}
+
+.playlist-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #1db954; /* Verde do Spotify */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}

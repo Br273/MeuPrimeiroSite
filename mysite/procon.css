@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20p;
+}
+
+.header {
+    background: #8fc2f8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #1e0b7b;
+}
+
+.section {
+    padding: 60px 0;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content:center;
+}
+
+.section img{
+    width: 10%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    text-align: center;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #004494;
+}
+
+.footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sobrenos {
+    background-color: rgb(183, 206, 226);
+    display: flex;
+}
+
+.sobrenos h2    {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    color: #2406bd;
+}
+
+.sobrenos h3 { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color: white;
+}
+
+.sobrenos p {
+    text-align: center;
+    max-width: 50%;
+
+}
+
+.sobrenos img {
+    width: 40%;
+        float:right;
+}

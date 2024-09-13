@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #270787;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.post-img {
+    width: 100%;
+    max-height: 10%;
+    border-radius: 5px;
+}
+
+.post-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.post-actions {
+    margin: 10px 0;
+}
+
+.like-button, .comment-button {
+    background-color: ##270787;
+    color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.like-button:hover, .comment-button:hover {
+    background-color: #270787;
+}
+
+.comments {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
